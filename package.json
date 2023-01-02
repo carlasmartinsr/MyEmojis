@@ -1,0 +1,14 @@
+{
+  "name": "myemojis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "intl-segmenter-polyfill"
+  },
+  "author": "Carla",
+  "license": "ISC",
+  "dependencies": {
+    "intl-segmenter-polyfill": "^0.4.4"
+  }
+}

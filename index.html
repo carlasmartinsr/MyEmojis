@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>MyEmojis</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>With up to 3️⃣ Emojis...</h1>
+      <div class="quiz-wrapper">
+        <label>How do you define yourself?</label>
+        <div class="answer-wrapper">
+          <input
+            type="text"
+            id="emoji-input-define"
+            class="emoji-input"
+            placeholder="type an emoji 🎉"
+          />
+          <div class="buttons-wrapper">
+            <button class="btn" id="add-btn-define">+</button>
+            <button class="btn" id="remove-btn-define">-</button>
+          </div>
+          <p>=</p>
+          <div id="container-define" class="container-result"></div>
+        </div>
+      </div>
+
+      <div class="quiz-wrapper">
+        <label>what do you do in your free time?</label>
+        <div class="answer-wrapper">
+          <input
+            type="text"
+            class="emoji-input"
+            id="emoji-input-hobby"
+            placeholder="type an emoji 🎉"
+          />
+          <div class="buttons-wrapper">
+            <button class="btn" id="add-btn-hobby">+</button>
+            <button class="btn" id="remove-btn-hobby">-</button>
+          </div>
+          <p>=</p>
+          <div id="container-hobby" class="container-result"></div>
+        </div>
+      </div>
+
+      <div class="quiz-wrapper">
+        <label>What are you most thankful for?</label>
+        <div class="answer-wrapper">
+          <input
+            type="text"
+            class="emoji-input"
+            id="emoji-input-thxful"
+            placeholder="type an emoji 🎉"
+          />
+          <div class="buttons-wrapper">
+            <button class="btn" id="add-btn-thxful">+</button>
+            <button class="btn" id="remove-btn-thxful">-</button>
+          </div>
+          <p>=</p>
+          <div id="container-thxful" class="container-result"></div>
+        </div>
+      </div>
+      <div id="alert-msg"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
